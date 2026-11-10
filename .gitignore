@@ -1,0 +1,22 @@
+# Drop-box data stays local (re-downloadable, often >100 MB)
+project-user-drop-box/**/input/**
+project-user-drop-box/**/output/**
+!project-user-drop-box/**/input/**/
+!project-user-drop-box/**/output/**/
+!project-user-drop-box/**/.gitkeep
+
+# Empty remote repo (no commits yet) - cannot be a submodule until it has one
+projects/machine-learning/ml-binaryclassification-credit-card-transactions-fraud-detection/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
