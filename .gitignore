@@ -1,9 +1,5 @@
-# Drop-box data stays local (re-downloadable, often >100 MB)
-project-user-drop-box/**/input/**
-project-user-drop-box/**/output/**
-!project-user-drop-box/**/input/**/
-!project-user-drop-box/**/output/**/
-!project-user-drop-box/**/.gitkeep
+# Drop-box is local-only (work in progress + raw data)
+project-user-drop-box/
 
 # Empty remote repo (no commits yet) - cannot be a submodule until it has one
 projects/machine-learning/ml-binaryclassification-credit-card-transactions-fraud-detection/
