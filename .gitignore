@@ -1,5 +1,14 @@
 # Drop-box is local-only (work in progress + raw data)
-project-user-drop-box/
+project-user-drop-box/*
+!project-user-drop-box/kaggle/
+project-user-drop-box/kaggle/*
+# Exception: Melanoma notebook + sample data only, for testing on another PC
+!project-user-drop-box/kaggle/SIIM-ISIC Melanoma - Classification CNNs with LIME/
+project-user-drop-box/kaggle/SIIM-ISIC Melanoma - Classification CNNs with LIME/*.zip
+project-user-drop-box/kaggle/SIIM-ISIC Melanoma - Classification CNNs with LIME/jpeg/train/*
+!project-user-drop-box/kaggle/SIIM-ISIC Melanoma - Classification CNNs with LIME/jpeg/train/ISIC_0015719.jpg.zip
+project-user-drop-box/kaggle/SIIM-ISIC Melanoma - Classification CNNs with LIME/jpeg/test/*
+!project-user-drop-box/kaggle/SIIM-ISIC Melanoma - Classification CNNs with LIME/jpeg/test/ISIC_0052060.jpg.zip
 
 
 # Python / Jupyter
