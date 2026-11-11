@@ -8,7 +8,7 @@ Each project lives in its own repository and is linked here as a git submodule u
 
 | Category | Project | Repo | Status |
 |---|---|---|---|
-| Machine learning | Appendicitis prediction | _coming soon_ | rebuilding |
+| Machine learning | Credit card transactions fraud detection | [repo](https://github.com/Pisit-Janthawee/ml-binaryclassification-credit-card-transactions-fraud-detection) | complete |
 
 ## Project layout
 

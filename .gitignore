@@ -14,3 +14,6 @@ venv/
 Thumbs.db
 .DS_Store
 desktop.ini
+
+# Local notebook build tooling
+.build/

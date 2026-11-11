@@ -1,0 +1,3 @@
+[submodule "projects/machine-learning/ml-binaryclassification-credit-card-transactions-fraud-detection"]
+	path = projects/machine-learning/ml-binaryclassification-credit-card-transactions-fraud-detection
+	url = https://github.com/Pisit-Janthawee/ml-binaryclassification-credit-card-transactions-fraud-detection.git
