@@ -15,7 +15,7 @@ Each project lives in its own repository and is linked here as a git submodule u
 | Machine learning | Everything about ensemble learning (Titanic) | [repo](https://github.com/Pisit-Janthawee/ml-binaryclassification-titanic-ensemble-learning.) |
 | Machine learning | House prices, linear regression | [repo](https://github.com/Pisit-Janthawee/ml-regression-house-prices-linear-regression) |
 | Machine learning | Chicago crime 2022: exploration, forecasting and classification | [repo](https://github.com/Pisit-Janthawee/ml-classification-chicago-crime-2022) |
-| Machine learning | Wine clustering: finding wine styles without labels (k-means, GMM, Ward, DBSCAN) | [repo](https://github.com/Pisit-Janthawee/ml-clustering-wine-kmeans-gmm) |
+| Machine learning | Wine clustering: taste styles in 130k tasting notes (TF-IDF, LSA, k-means) | [repo](https://github.com/Pisit-Janthawee/ml-clustering-wine-kmeans-gmm) |
 | Machine learning | Steam game recommendation system, clustering and thumbnail GAN | [repo](https://github.com/Pisit-Janthawee/ml-recommendationsystem-clustering-steam-games) |
 
 ## Project layout
