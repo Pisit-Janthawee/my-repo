@@ -1,3 +1,6 @@
 [submodule "projects/machine-learning/ml-binaryclassification-credit-card-transactions-fraud-detection"]
 	path = projects/machine-learning/ml-binaryclassification-credit-card-transactions-fraud-detection
 	url = https://github.com/Pisit-Janthawee/ml-binaryclassification-credit-card-transactions-fraud-detection.git
+[submodule "projects/deep-learning/dl-multiclassification-stock-triple-barrier-rnn-lstm"]
+	path = projects/deep-learning/dl-multiclassification-stock-triple-barrier-rnn-lstm
+	url = https://github.com/Pisit-Janthawee/dl-multiclassification-stock-triple-barrier-rnn-lstm.git
