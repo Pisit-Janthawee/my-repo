@@ -22,3 +22,6 @@
 [submodule "projects/machine-learning/ml-classification-chicago-crime-2022"]
 	path = projects/machine-learning/ml-classification-chicago-crime-2022
 	url = https://github.com/Pisit-Janthawee/ml-classification-chicago-crime-2022.git
+[submodule "projects/machine-learning/ml-clustering-wine-kmeans-gmm"]
+	path = projects/machine-learning/ml-clustering-wine-kmeans-gmm
+	url = https://github.com/Pisit-Janthawee/ml-clustering-wine-kmeans-gmm.git
