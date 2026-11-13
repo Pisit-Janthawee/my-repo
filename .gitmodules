@@ -25,3 +25,6 @@
 [submodule "projects/machine-learning/ml-clustering-wine-kmeans-gmm"]
 	path = projects/machine-learning/ml-clustering-wine-kmeans-gmm
 	url = https://github.com/Pisit-Janthawee/ml-clustering-wine-kmeans-gmm.git
+[submodule "projects/machine-learning/ml-survivalanalysis-telco-customer-churn"]
+	path = projects/machine-learning/ml-survivalanalysis-telco-customer-churn
+	url = https://github.com/Pisit-Janthawee/ml-survivalanalysis-telco-customer-churn.git
