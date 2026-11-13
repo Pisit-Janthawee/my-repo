@@ -4,3 +4,18 @@
 [submodule "projects/deep-learning/dl-multiclassification-stock-triple-barrier-rnn-lstm"]
 	path = projects/deep-learning/dl-multiclassification-stock-triple-barrier-rnn-lstm
 	url = https://github.com/Pisit-Janthawee/dl-multiclassification-stock-triple-barrier-rnn-lstm.git
+[submodule "projects/machine-learning/ml-recommendationsystem-clustering-steam-games"]
+	path = projects/machine-learning/ml-recommendationsystem-clustering-steam-games
+	url = https://github.com/Pisit-Janthawee/ml-recommendationsystem-clustering-steam-games.git
+[submodule "projects/deep-learning/dl-binaryclassification-siim-isic-melanoma-cnn-lime"]
+	path = projects/deep-learning/dl-binaryclassification-siim-isic-melanoma-cnn-lime
+	url = https://github.com/Pisit-Janthawee/dl-binaryclassification-siim-isic-melanoma-cnn-lime.git
+[submodule "projects/deep-learning/dl-binaryclassification-tuberculosis-chest-xray-cnn-lime"]
+	path = projects/deep-learning/dl-binaryclassification-tuberculosis-chest-xray-cnn-lime
+	url = https://github.com/Pisit-Janthawee/dl-binaryclassification-tuberculosis-chest-xray-cnn-lime.git
+[submodule "projects/machine-learning/ml-binaryclassification-titanic-ensemble-learning"]
+	path = projects/machine-learning/ml-binaryclassification-titanic-ensemble-learning
+	url = https://github.com/Pisit-Janthawee/ml-binaryclassification-titanic-ensemble-learning..git
+[submodule "projects/machine-learning/ml-regression-house-prices-linear-regression"]
+	path = projects/machine-learning/ml-regression-house-prices-linear-regression
+	url = https://github.com/Pisit-Janthawee/ml-regression-house-prices-linear-regression.git

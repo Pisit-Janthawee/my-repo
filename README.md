@@ -6,32 +6,30 @@ Each project lives in its own repository and is linked here as a git submodule u
 
 ## Projects
 
-| Category | Project | Repo | Status |
-|---|---|---|---|
-| Deep learning | Stock triple-barrier classification (RNN / LSTM / GRU) | [repo](https://github.com/Pisit-Janthawee/dl-multiclassification-stock-triple-barrier-rnn-lstm) | complete |
-| Machine learning | Credit card transactions fraud detection | [repo](https://github.com/Pisit-Janthawee/ml-binaryclassification-credit-card-transactions-fraud-detection) | complete |
+| Category | Project | Repo |
+|---|---|---|
+| Deep learning | Melanoma classification, EfficientNetB0 + LIME | [repo](https://github.com/Pisit-Janthawee/dl-binaryclassification-siim-isic-melanoma-cnn-lime) |
+| Deep learning | Tuberculosis chest X-ray classification, CNN + LIME | [repo](https://github.com/Pisit-Janthawee/dl-binaryclassification-tuberculosis-chest-xray-cnn-lime) |
+| Deep learning | Stock triple-barrier classification (RNN / LSTM / GRU) | [repo](https://github.com/Pisit-Janthawee/dl-multiclassification-stock-triple-barrier-rnn-lstm) |
+| Machine learning | Credit card transactions fraud detection | [repo](https://github.com/Pisit-Janthawee/ml-binaryclassification-credit-card-transactions-fraud-detection) |
+| Machine learning | Everything about ensemble learning (Titanic) | [repo](https://github.com/Pisit-Janthawee/ml-binaryclassification-titanic-ensemble-learning.) |
+| Machine learning | House prices, linear regression | [repo](https://github.com/Pisit-Janthawee/ml-regression-house-prices-linear-regression) |
+| Machine learning | Steam game recommendation system and clustering | [repo](https://github.com/Pisit-Janthawee/ml-recommendationsystem-clustering-steam-games) |
 
 ## Project layout
 
-Every project uses the same structure:
+Each project is built to run on Kaggle and to be read top to bottom:
 
 ```
 <project>/
-├── README.md            # problem, data source, approach, results, how to run
-├── requirements.txt
-├── notebooks/           # numbered, read top to bottom
-│   ├── 01_data_understanding.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_preprocessing.ipynb
-│   ├── 04_modeling.ipynb
-│   ├── 05_evaluation_explainability.ipynb
-│   └── 06_deployment.ipynb      (optional)
-├── src/                 # reusable code imported by the notebooks
-├── data/raw/            # git-ignored; download instructions in README
-├── data/processed/      # git-ignored
-├── models/              # git-ignored
-└── reports/figures/     # plots used in the README
+├── README.md        # overview, results, how to run on Kaggle, findings
+├── <project>.ipynb  # one self-contained notebook: settings cell on top, numbered [k/N] sections
+├── assets/          # figures used in the README
+└── arch/            # earlier versions of the project, kept for reference
 ```
+
+The first rebuilt projects (credit card fraud, stock) also have a multi-notebook version with a `src/` package,
+plus a single-file notebook in `kaggle/`. Datasets are never committed; each README says where to get them.
 
 ## Clone everything
 
