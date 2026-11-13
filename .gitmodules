@@ -19,3 +19,6 @@
 [submodule "projects/machine-learning/ml-regression-house-prices-linear-regression"]
 	path = projects/machine-learning/ml-regression-house-prices-linear-regression
 	url = https://github.com/Pisit-Janthawee/ml-regression-house-prices-linear-regression.git
+[submodule "projects/machine-learning/ml-classification-chicago-crime-2022"]
+	path = projects/machine-learning/ml-classification-chicago-crime-2022
+	url = https://github.com/Pisit-Janthawee/ml-classification-chicago-crime-2022.git
