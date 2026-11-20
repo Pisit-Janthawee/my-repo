@@ -28,3 +28,6 @@
 [submodule "projects/machine-learning/ml-survivalanalysis-telco-customer-churn"]
 	path = projects/machine-learning/ml-survivalanalysis-telco-customer-churn
 	url = https://github.com/Pisit-Janthawee/ml-survivalanalysis-telco-customer-churn.git
+[submodule "projects/deep-learning/dl-multiclassification-face-recognition"]
+	path = projects/deep-learning/dl-multiclassification-face-recognition
+	url = https://github.com/Pisit-Janthawee/dl-multiclassification-face-recognition.git

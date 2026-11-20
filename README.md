@@ -10,6 +10,7 @@ Each project lives in its own repository and is linked here as a git submodule u
 |---|---|---|
 | Deep learning | Melanoma classification, EfficientNetB0 + LIME | [repo](https://github.com/Pisit-Janthawee/dl-binaryclassification-siim-isic-melanoma-cnn-lime) |
 | Deep learning | Tuberculosis chest X-ray classification, CNN + LIME | [repo](https://github.com/Pisit-Janthawee/dl-binaryclassification-tuberculosis-chest-xray-cnn-lime) |
+| Deep learning | Face recognition: from a 4-person classifier to face verification (FaceNet embeddings, LFW) | [repo](https://github.com/Pisit-Janthawee/dl-multiclassification-face-recognition) |
 | Deep learning | Stock triple-barrier classification (RNN / LSTM / GRU) | [repo](https://github.com/Pisit-Janthawee/dl-multiclassification-stock-triple-barrier-rnn-lstm) |
 | Machine learning | Credit card transactions fraud detection | [repo](https://github.com/Pisit-Janthawee/ml-binaryclassification-credit-card-transactions-fraud-detection) |
 | Machine learning | Everything about ensemble learning (Titanic) | [repo](https://github.com/Pisit-Janthawee/ml-binaryclassification-titanic-ensemble-learning.) |
@@ -27,7 +28,8 @@ Each project is built to run on Kaggle and to be read top to bottom:
 <project>/
 ├── README.md        # overview, results, how to run on Kaggle, findings
 ├── <project>.ipynb  # one self-contained notebook: settings cell on top, numbered [k/N] sections
-├── assets/          # figures used in the README
+├── assets/png/      # figures used in the README and linked from the notebook
+├── assets/drawio/   # editable draw.io diagrams
 └── arch/            # earlier versions of the project, kept for reference
 ```
 
